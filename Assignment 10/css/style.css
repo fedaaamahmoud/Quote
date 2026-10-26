@@ -1,0 +1,87 @@
+/* STYLE OF QUOTE */
+
+.nav-item .nav-link{
+    color:white;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 600;
+    font-size: 16px;
+    border-bottom:2px solid transparent ;
+    transition: border-bottom 2s
+                ,color 1s;
+    padding: 15px;
+  }
+  .nav-item :hover{
+      border-bottom: 2px white solid;
+      color: rgb(137, 173, 230);
+    }
+  .navbar-left{
+      color:white;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      font-weight: 700;
+      font-size: 25px;
+      padding: 17px;
+      text-decoration: none;
+   }
+  .dropdown-menu a{
+      color:black;
+      font-size: 15px;
+      font-weight: 500;
+      font-family: "Poppins", sans-serif;
+      padding: 15px;
+   }
+  header{
+      background-image: url(../images/img.png);
+      background-size: cover;
+      background-position: center top;
+      width: 100%;
+  }
+  .layer{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .head-content{
+      text-align: center;
+  }
+  .head-content h1{
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 60px;
+  }
+  .head-content p{
+    font-family: "Satisfy", cursive;
+    font-weight: 300;
+    font-size: 40px;
+  }
+  .btn{
+    background-color: white;
+    border: 5px solid rgb(137, 173, 230) ;
+    width:30%;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    border-radius: 50rem;
+    transition: background-color 1s
+                ,border 1s;
+  }
+  .btn:hover{
+    background-color: rgb(137, 173, 230);
+    border:5px solid rgb(205, 225, 248);
+  }
+  #quotes{
+    font-family: "Libre Baskerville", serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 30px;
+  }
+  #author{
+    font-family: "Libre Baskerville", serif;
+    font-size: 30px;
+    font-weight: 500;
+    color:rgb(137, 173, 230);
+  }
+  
+  
